@@ -21,7 +21,7 @@ jobs:
         run: |
           curl https://developers.google.com/static/crawling/ipranges/common-crawlers.json -o googlebot.json -L
           curl https://developers.google.com/static/crawling/ipranges/special-crawlers.json -o special-crawlers.json -L
-          curl https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json -o user-triggered-fetchers.json -L
+          curl https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json -o user-triggered-fetchers.json -L
 
       - name: Separate into different formats and types.
         run: |
